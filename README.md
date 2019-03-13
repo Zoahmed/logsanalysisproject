@@ -81,7 +81,7 @@ Method of tackling it: Created view1 to count the times each distinct path was s
 Method of tackling it: I first created view3 to output each author's ID and views of each article they had written. Next, using query2 I joined the author's ID in view3 with that in the authors table to get the authors name. In query2 I also summed up the views of every article an author had written, and grouped the results by author.
 
 
-###### Question3: On which days did more than 1% of requests lead to errors?
+##### Question3: On which days did more than 1% of requests lead to errors?
 Method of tackling it: For this I created view4 to count the  error for each day and view5 to count the total number of requests for each day. I next created view6 to join these two so that I could easily query the table. I next used query3 to get the percentage of errors per day, and used a WHERE statement to filter for days where more than 1% of requests lead to errors.
 
 
