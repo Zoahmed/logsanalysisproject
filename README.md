@@ -1,5 +1,5 @@
 # Logs Analysis - Udacity
-## Full Stack Web Development ND
+## Full Stack Web Development Nanodegree
 
 ### About
 
